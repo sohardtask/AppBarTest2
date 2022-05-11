@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/quick_action1"
+        android:title="Quick1"
+        android:icon="@drawable/ic_android_black_24dp"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_subactivity"
+        android:title="월"/>
+    <item
+        android:id="@+id/action_thirdactivity"
+        android:title="주"/>
+</menu>
